@@ -11,7 +11,7 @@ namespace OpeningWeekend
     {
         public string EredetiCím { get; set; }
         public string MagyarCím { get; set; }
-        public DateTime BemutatóDátuma { get; set; }
+        public string BemutatóDátuma { get; set; }
         public string Forgalmazó { get; set; }
         public int Bevétel { get; set; }
         public int Látogató { get; set; }
@@ -21,7 +21,7 @@ namespace OpeningWeekend
             string[] x = sor.Split(';');
             this.EredetiCím = x[0];
             this.MagyarCím = x[1];
-            this.BemutatóDátuma = DateTime.Parse(x[2]);
+            this.BemutatóDátuma = x[2];
             this.Forgalmazó = x[3];
             this.Bevétel = int.Parse(x[4]);
             this.Látogató = int.Parse(x[5]);
@@ -39,6 +39,19 @@ namespace OpeningWeekend
             }
             //3. feladat:
             Console.WriteLine($"3. feladat: Filmek száma az állományban: {filmek.Count} db");
+            //4.feladat:
+            int bevételszámoló = 0;
+            foreach (var f in filmek)
+            {
+                if (f.Forgalmazó=="UIP")
+                {
+                    if (f.BemutatóDátuma=="2016.12.01")
+                    {
+                        bevételszámoló = bevételszámoló + f.Bevétel;
+                    }
+                }
+            }
+            Console.WriteLine($"4. feladat: UIP Duna Film 1. hetes bevételeinek összege: {bevételszámoló} Ft");
             Console.ReadKey();
         }
     }
