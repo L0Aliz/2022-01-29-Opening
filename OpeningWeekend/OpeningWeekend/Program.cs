@@ -52,6 +52,28 @@ namespace OpeningWeekend
                 }
             }
             Console.WriteLine($"4. feladat: UIP Duna Film 1. hetes bevételeinek összege: {bevételszámoló} Ft");
+            //5. feladat:
+            Console.WriteLine("5. feladat: Legtöbb látogató az 1. héten: ");
+            int maxlátogató = 1;
+            foreach (var i in filmek)
+            {
+                if (i.Látogató>maxlátogató)
+                {
+                    maxlátogató = i.Látogató;
+                }
+            }
+            foreach (var l in filmek)
+            {
+                if (l.Látogató==maxlátogató)
+                {
+                    Console.WriteLine($"Eredeti cím: {l.EredetiCím}");
+                    Console.WriteLine($"Magyar Cím: {l.MagyarCím}");
+                    Console.WriteLine($"Forgalmazó: {l.Forgalmazó}");
+                    Console.WriteLine($"Bevétel az első héten: {l.Bevétel} Ft");
+                    Console.WriteLine($"Látogatók száma: {l.Látogató} fő");
+                }
+            }
+            
             Console.ReadKey();
         }
     }
