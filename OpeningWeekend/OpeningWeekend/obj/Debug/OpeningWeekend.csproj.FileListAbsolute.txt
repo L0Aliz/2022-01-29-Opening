@@ -1,0 +1,8 @@
+C:\Users\bolyh\Desktop\2022-01-29-Opening\OpeningWeekend\OpeningWeekend\bin\Debug\OpeningWeekend.exe.config
+C:\Users\bolyh\Desktop\2022-01-29-Opening\OpeningWeekend\OpeningWeekend\bin\Debug\OpeningWeekend.exe
+C:\Users\bolyh\Desktop\2022-01-29-Opening\OpeningWeekend\OpeningWeekend\bin\Debug\OpeningWeekend.pdb
+C:\Users\bolyh\Desktop\2022-01-29-Opening\OpeningWeekend\OpeningWeekend\obj\Debug\OpeningWeekend.csproj.AssemblyReference.cache
+C:\Users\bolyh\Desktop\2022-01-29-Opening\OpeningWeekend\OpeningWeekend\obj\Debug\OpeningWeekend.csproj.SuggestedBindingRedirects.cache
+C:\Users\bolyh\Desktop\2022-01-29-Opening\OpeningWeekend\OpeningWeekend\obj\Debug\OpeningWeekend.csproj.CoreCompileInputs.cache
+C:\Users\bolyh\Desktop\2022-01-29-Opening\OpeningWeekend\OpeningWeekend\obj\Debug\OpeningWeekend.exe
+C:\Users\bolyh\Desktop\2022-01-29-Opening\OpeningWeekend\OpeningWeekend\obj\Debug\OpeningWeekend.pdb

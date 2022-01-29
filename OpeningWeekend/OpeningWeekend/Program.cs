@@ -37,7 +37,9 @@ namespace OpeningWeekend
             {
                 filmek.Add(new Film(sor));
             }
-            
+            //3. feladat:
+            Console.WriteLine($"3. feladat: Filmek száma az állományban: {filmek.Count} db");
+            Console.ReadKey();
         }
     }
 }
