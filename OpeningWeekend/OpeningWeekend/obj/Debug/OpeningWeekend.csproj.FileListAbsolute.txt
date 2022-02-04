@@ -6,3 +6,10 @@ C:\Users\bolyh\Desktop\2022-01-29-Opening\OpeningWeekend\OpeningWeekend\obj\Debu
 C:\Users\bolyh\Desktop\2022-01-29-Opening\OpeningWeekend\OpeningWeekend\obj\Debug\OpeningWeekend.csproj.CoreCompileInputs.cache
 C:\Users\bolyh\Desktop\2022-01-29-Opening\OpeningWeekend\OpeningWeekend\obj\Debug\OpeningWeekend.exe
 C:\Users\bolyh\Desktop\2022-01-29-Opening\OpeningWeekend\OpeningWeekend\obj\Debug\OpeningWeekend.pdb
+H:\Programozás\Gyakorlat\12\webfeladatok\2022-01-29-Opening\OpeningWeekend\OpeningWeekend\obj\Debug\OpeningWeekend.csproj.AssemblyReference.cache
+H:\Programozás\Gyakorlat\12\webfeladatok\2022-01-29-Opening\OpeningWeekend\OpeningWeekend\obj\Debug\OpeningWeekend.csproj.CoreCompileInputs.cache
+H:\Programozás\Gyakorlat\12\webfeladatok\2022-01-29-Opening\OpeningWeekend\OpeningWeekend\obj\Debug\OpeningWeekend.exe
+H:\Programozás\Gyakorlat\12\webfeladatok\2022-01-29-Opening\OpeningWeekend\OpeningWeekend\obj\Debug\OpeningWeekend.pdb
+H:\Programozás\Gyakorlat\12\webfeladatok\2022-01-29-Opening\OpeningWeekend\OpeningWeekend\bin\Debug\OpeningWeekend.exe.config
+H:\Programozás\Gyakorlat\12\webfeladatok\2022-01-29-Opening\OpeningWeekend\OpeningWeekend\bin\Debug\OpeningWeekend.exe
+H:\Programozás\Gyakorlat\12\webfeladatok\2022-01-29-Opening\OpeningWeekend\OpeningWeekend\bin\Debug\OpeningWeekend.pdb

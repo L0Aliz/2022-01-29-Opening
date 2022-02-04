@@ -73,7 +73,28 @@ namespace OpeningWeekend
                     Console.WriteLine($"Látogatók száma: {l.Látogató} fő");
                 }
             }
-            
+            //6. feladat:
+            int vanilyen=0;
+            foreach (var m in filmek)
+	        {
+                string[] eredetiszavak=m.EredetiCím.Split(' ');
+                foreach (var e in eredetiszavak)
+	            {
+                    string[] eredetibetűk=e.Split();
+                    if (eredetibetűk[0]=="w" || eredetibetűk[0]=="W")
+	                {
+                        vanilyen = vanilyen + 1;
+	                }
+	            }
+	        }
+            if (vanilyen>0)
+	        {
+                Console.WriteLine("végre működik");
+	        }
+            else
+	        {
+                Console.WriteLine("fail");
+	        }
             Console.ReadKey();
         }
     }
