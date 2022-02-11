@@ -74,26 +74,22 @@ namespace OpeningWeekend
                 }
             }
             //6. feladat:
-            int vanilyen=0;
+            bool nincs= true;
             foreach (var m in filmek)
 	        {
                 string[] eredetiszavak=m.EredetiCím.Split(' ');
-                foreach (var e in eredetiszavak)
+                if (eredetiszavak[0]!="w" || eredetiszavak[0]!="W")
 	            {
-                    string[] eredetibetűk=e.Split();
-                    if (eredetibetűk[0]=="w" || eredetibetűk[0]=="W")
-	                {
-                        vanilyen = vanilyen + 1;
-	                }
-	            }
+                    nincs=false;
+	            }   
 	        }
-            if (vanilyen>0)
+            if (nincs)
 	        {
-                Console.WriteLine("végre működik");
+                Console.WriteLine("Volt ilyen film.");
 	        }
             else
 	        {
-                Console.WriteLine("fail");
+                Console.WriteLine("Nem volt ilyen film.");
 	        }
             Console.ReadKey();
         }
